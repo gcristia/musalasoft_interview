@@ -1,5 +1,5 @@
 # MusalaSoft Interview
-Musala Soft Interview 2022
+### Musala Soft Interview 2022
 
 ## 📄 Conditions
 You have to prepare a solution to the proposed problem in the defined period of time. The solution must comply with the requirements. For anything not explicitly listed, you are free to choose whatever technology/library/tool you feel comfortable with.
