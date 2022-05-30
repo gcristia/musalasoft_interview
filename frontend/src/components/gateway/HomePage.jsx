@@ -13,7 +13,7 @@ export const HomePage = () => {
   const [isError, setIsError] = useState(true)
   const [gateways, setGateways] = useState([])
 
-  const { data, error, loaded } = useAxios('http://localhost:3300/api/v1/gateways', 'GET', {})
+  const { data, error, loaded } = useAxios('https://musalasoft-interview-backned.vercel.app/api/v1/gateways', 'GET', {})
 
   const onGatewaysChange = gateway => {
     setGateways(gateway)

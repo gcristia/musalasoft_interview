@@ -35,7 +35,7 @@ export const AddDeviceModal = ({ show, handleClose, gatewayId }) => {
           status: statusDevice
         },
         method: 'POST',
-        url: `http://localhost:3300/api/v1/devices/${gatewayId}/create`
+        url: `https://musalasoft-interview-backned.vercel.app/api/v1/devices/${gatewayId}/create`
       })
 
       if (status === 201) {

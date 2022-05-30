@@ -37,7 +37,7 @@ export const AddGatewayModal = ({ show, handleClose }) => {
           ipv4
         },
         method: 'POST',
-        url: 'http://localhost:3300/api/v1/gateways/create'
+        url: 'https://musalasoft-interview-backned.vercel.app/api/v1/gateways/create'
       })
 
       if (status === 201) {
