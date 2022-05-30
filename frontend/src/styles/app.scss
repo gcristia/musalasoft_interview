@@ -1,0 +1,9 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons';
+
+@import 'utils/fix_scroll_header_footer';
+@import 'utils/scroll_bar';
+
+.dashboard {
+  margin-top: 70px;
+}

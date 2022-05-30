@@ -1,2 +1,2 @@
-# musalasoft_interview
+# MusalaSoft Interview
 Musala Soft Interview 2022

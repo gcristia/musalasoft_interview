@@ -1,0 +1,25 @@
+/* For Chrome and other browsers except Firefox */
+main::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(112, 110, 110, 0.11);
+  border-radius: 1rem;
+  background-color: #e8e8e8;
+}
+
+main::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #e8e8e8;
+}
+
+main::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  -webkit-box-shadow: inset 0 0 6px rgba(112, 110, 110, 0.11);
+  background-color: #696969;
+}
+
+/* For Firefox */
+main {
+  overflow-y: scroll;
+  scrollbar-color: #706E6E1C #e8e8e8;
+  scrollbar-width: thin;
+}
+

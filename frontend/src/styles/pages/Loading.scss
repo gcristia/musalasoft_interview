@@ -1,0 +1,64 @@
+.loader-root {
+  border-radius: .6rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  top: 0;
+  left: 0;
+
+  > .loader-container {
+    display: flex;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 10px;
+    background-color: rgb(3, 136, 244);
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 14px;
+  }
+
+}
+
+.loader-container > .loader-label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.loader-label > .circular-spinner {
+  background-color: transparent;
+  height: 15px;
+  width: 15px;
+  margin: 0 8px 0 0;
+  border: 3px rgba(193, 193, 193, 0.25) solid;
+  border-top: 3px #FFFFFF solid;
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
