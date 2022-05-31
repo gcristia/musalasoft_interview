@@ -23,7 +23,7 @@ export const GatewayCard = ({ gateway }) => {
 
   const deleteGateway = async () => {
     try {
-      const { data, status } = await axios.delete(`https://musalasoft-interview-backned.vercel.app/api/v1/gateways/${_id}`)
+      const { data, status } = await axios.delete(`https://musalasoft-interview-backend.vercel.app/api/v1/gateways/${_id}`)
 
       if (status === 200) {
         const newGateways = gateways.filter(gateway => gateway._id !== data._id)

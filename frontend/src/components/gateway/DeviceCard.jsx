@@ -12,7 +12,7 @@ export const DeviceCard = ({ device, gatewayId }) => {
 
   const deleteDevice = async () => {
     try {
-      const { data, status } = await axios.delete(`https://musalasoft-interview-backned.vercel.app/api/v1/devices/${gatewayId}/device/${_id}`)
+      const { data, status } = await axios.delete(`https://musalasoft-interview-backend.vercel.app/api/v1/devices/${gatewayId}/device/${_id}`)
 
       if (status === 200) {
         const newGateway = [...gateways]
