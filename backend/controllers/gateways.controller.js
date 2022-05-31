@@ -25,7 +25,7 @@ const GatewaysController = {
     },
 
     find: async (req, res) => {
-        const { id } = req.body
+        const { id } = req.params
         try {
             const found = await GatewayModel.findById(id)
             if (!found) {
