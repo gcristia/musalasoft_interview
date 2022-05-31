@@ -1,0 +1,213 @@
+{
+	"info": {
+		"_postman_id": "4fe66ba2-e48d-4523-8086-56ef74dcbde0",
+		"name": "Musalasof Interview",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ALL GATEWAYS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/gateways",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"gateways"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE GATEWAY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ipv4\": \"0.0.0.0\",\r\n    \"serial\": 8788686786,\r\n    \"name\": \"dsdsdsdsd\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/gateways/create",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND GATEWAY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/gateways/629569993b3d6500483846b0",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"629569993b3d6500483846b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FIND DEVICES IN GATEWAY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/gateways/629569993b3d6500483846b0/devices",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"629569993b3d6500483846b0",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE GATEWAY",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/gateways/629569993b3d6500483846b0",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"gateways",
+						"629569993b3d6500483846b0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CREATE DEVICE IN GATEWAY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"uid\": 89,\r\n    \"vendor\":\"dsadasdasd\",\r\n    \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/devices/629569993b3d6500483846b0/create",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"629569993b3d6500483846b0",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ALL DEVICES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/devices",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE DEVICE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://musalasoft-interview-backend.vercel.app/api/v1/devices/629569993b3d6500483846b0/device/62957a18556c626ac1e12d0c",
+					"protocol": "https",
+					"host": [
+						"musalasoft-interview-backend",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"api",
+						"v1",
+						"devices",
+						"629569993b3d6500483846b0",
+						"device",
+						"62957a18556c626ac1e12d0c"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
