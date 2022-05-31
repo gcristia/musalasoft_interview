@@ -60,15 +60,14 @@ Is deployed to the following URL:
 
 
 ### 📷 Preview UI - Screenshots
-<p align="center" width="100%">
-    <img width="50%" src="docs/frontend/UI1.png" alt="Home">  
-    <img width="50%" src="docs/frontend/UI2.png" alt="Add Gateway">  
-    <img width="50%" src="docs/frontend/UI3.png" alt="Home -Add Gateway"> 
-    <img width="50%" src="docs/frontend/UI4.png" alt="Add Device to Gateway">  
-    <img width="50%" src="docs/frontend/UI5.png" alt="Home -Add Device to Gateway">  
-    <img width="50%" src="docs/frontend/UI6.png" alt="Home -Some Gateway">  
-    <img width="50%" src="docs/frontend/UI7.png" alt="Page Not Found">  
-</p> 
+
+![Home](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI1.png?raw=true)
+![Add Gateway](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI2.png?raw=true)
+![Home-Add Gateway](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI3.png?raw=true)
+![Add Device to Gateway](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI4.png?raw=true)
+![Home-Add Device to Gateway](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI5.png?raw=true)
+![Home -Some Gateway](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI6.png?raw=true)
+![Page Not Found](https://github.com/gcristia/musalasoft_interview/blob/main/docs/frontend/UI7.png?raw=true)
 
 
 ---
