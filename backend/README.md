@@ -78,8 +78,9 @@ The deployment is configured so that when you push to the main branch in the bac
 
 * 🚨 In Vercel the environment variables were configured 
 
-![BACKEND - Environment Variables - VERCEL](https://github.
-com/gcristia/musalasoft_interview/blob/main/docs/deploy/BACKEND-Environment-Variables-VERCEL.png?raw=true)
+![BACKEND - Environment Variables - VERCEL](https://github.com/gcristia/musalasoft_interview/blob/main/docs/deploy/BACKEND-Environment-Variables-VERCEL.png?raw=true)
+
+* 🚨 I used MongoDB Atlas to create a cruster for the production Database and it was added to the Vercel environment variables as you can see in the image above
 
 Is deployed to the following URL:
 🌐  https://musalasoft-interview-backend.vercel.app
